@@ -1,0 +1,30 @@
+'''
+Created on Apr 22, 2018
+
+@author: shree
+'''
+#unit converter feet to inches and vise-versa
+
+feettoinch = 1
+inchtofeet = 2
+
+print("Which conversion would you like to perform?" + "\n"
+    "For feet to inches input 1" + "\n"
+    "For inches to feet input 2" + "\n")
+
+print("Input operation:")
+conversion = int(input())
+
+if conversion == 1:
+    print("Input amount in feet:")
+    feet = int(input())
+    
+    inches = feet * 12
+    print(feet,"feet =", inches,"inches")
+    
+else:
+    print("Input amount in inches:")
+    inches = int(input())
+    
+    feet = inches // 12
+    print(inches,"inches =", feet,"feet") 
