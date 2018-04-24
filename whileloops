@@ -1,0 +1,13 @@
+'''
+Created on Apr 19, 2018
+
+@author: shree
+'''
+number = 10
+
+while number > 0:
+    print(str(number) + " is greater than 0.")
+    number = number - 1
+else:
+    print(str(number) + " is equal to 0.")
+    print("Bye!")
