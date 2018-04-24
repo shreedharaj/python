@@ -1,0 +1,24 @@
+'''
+Created on Apr 16, 2018
+
+@author: shree
+'''
+number = 5
+
+print("Hey! What's your name?\n")
+personname = input()
+
+print(personname + " I was thinking of a number between 1-10.") 
+
+print("Take a guess.")
+guess = int(input())
+
+if guess > 10:
+    print("Invalid input")
+
+elif guess == number:
+    print("Your guess is perfect!")
+elif guess > number: 
+    print("Your guess is too high")
+elif guess < number:
+    print("Your guess is too low")
