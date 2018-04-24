@@ -1,0 +1,25 @@
+'''
+Created on Apr 19, 2018
+
+@author: shree
+'''
+
+for letter in "Shreedhar":
+    print("Current letter:", letter) # you can either use a comma or + to combine two variables.
+    
+    if letter == 'h':
+        break    
+    
+# how to make space between lines when the program runs?
+
+for letter in "Shreedhar":
+    print("Current:", letter)
+    
+    if letter == 'h':
+        continue
+    
+for letter in "Shreedhar":
+    print("Letter:", letter)
+    
+    if letter == 'h':
+        pass
