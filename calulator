@@ -1,0 +1,36 @@
+'''
+Created on Apr 17, 2018
+
+@author: shree
+'''
+
+add = 1
+subtract = 2
+multiply = 3
+divide = 4
+
+print("Which operation would you like to perform?\
+\nadd = 1\
+\nsubtract = 2\
+\nmultiply = 3\
+\ndivide = 4\n")
+
+print("Input your operation:")
+operation = int(input())
+
+if operation > 4:
+    print ("Invalid input")
+else:    
+    print(str(operation) + " ok. Now input your operands")
+    
+    operand1 = int(input("Enter first operand: "))
+    operand2 = int(input("Enter second operand: "))
+    
+    if operation == 1:
+        print(operand1, "+", operand2, "=", (operand1+operand2))    
+    elif operation == 2:
+        print(operand1, "-", operand2, "=", (operand1-operand2))  
+    elif operation == 3:
+        print(operand1, "*", operand2, "=", (operand1*operand2))
+    elif operation == 4:
+        print(operand1, "/", operand2, "=", (operand1/operand2))  
